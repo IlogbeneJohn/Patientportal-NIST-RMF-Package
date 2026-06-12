@@ -128,11 +128,6 @@ flowchart TD
 
 See the [`diagrams/`](diagrams) folder for the full set of detailed Mermaid data-flow diagrams.
 
----
-
-## 🚀 Publishing to GitHub
-
-See [`SETUP.md`](SETUP.md) for step-by-step instructions on initializing this folder as a Git repository and pushing it to GitHub.
 
 ---
 

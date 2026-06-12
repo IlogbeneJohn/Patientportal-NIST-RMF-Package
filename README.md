@@ -33,17 +33,17 @@ The **NIST Risk Management Framework (RMF)** is a structured, repeatable process
 patientportal-rmf-package/
 ├── README.md                          ← You are here
 ├── LICENSE
-├── docs/
-│   ├── 01-system-description.md       ← What is the system? Who uses it?
-│   ├── 02-fips-199-categorization.md  ← How serious would a breach be?
-│   ├── 03-system-security-plan.md     ← What controls are in place?
-│   ├── 04-risk-assessment.md          ← What could go wrong?
-│   ├── 05-poam.md                     ← What gaps exist, and how/when will we fix them?
-│   └── 06-security-assessment-report.md ← Did we test the controls? Did they work?
-└── diagrams/
-    ├── data-flow-diagram.md           ← Patient login & record retrieval (Mermaid)
-    ├── audit-logging-flow.md          ← Audit/event logging flow (Mermaid)
-    └── prescription-refill-flow.md    ← EHR/pharmacy integration flow (Mermaid)
+├── Documents/
+│   ├── 01-System-Description.md       ← What is the system? Who uses it?
+│   ├── 02-FIPS-199-Categorization.md  ← How serious would a breach be?
+│   ├── 03-System-Security-Plan.md     ← What controls are in place?
+│   ├── 04-Risk-Assessment.md          ← What could go wrong?
+│   ├── 05-POAM.md                     ← What gaps exist, and how/when will we fix them?
+│   └── 06-Security-Assessment-Report.md ← Did we test the controls? Did they work?
+└── Diagrams/
+    ├── Data-Flow-Diagram.md           ← Patient login & record retrieval (Mermaid)
+    ├── Audit-Logging-Flow.md          ← Audit/event logging flow (Mermaid)
+    └── Prescription-Refill-Flow.md    ← EHR/pharmacy integration flow (Mermaid)
 ```
 
 ---
@@ -72,12 +72,12 @@ The RMF process consists of six interlinked steps. Each document in this repo ma
 
 | Step | Document | Plain-English Purpose |
 |---|---|---|
-| 1 | [System Description](docs/01-system-description.md) | What is this system and who uses it? |
-| 2 | [FIPS 199 Categorization Memo](docs/02-fips-199-categorization.md) | How serious would a breach be? |
-| 3 | [System Security Plan (SSP)](docs/03-system-security-plan.md) | What security controls are in place and how do they work? |
-| 4 | [Risk Assessment (SP 800-30)](docs/04-risk-assessment.md) | What could go wrong, and how bad would it be? |
-| 5 | [Plan of Action & Milestones (POA&M)](docs/05-poam.md) | What security gaps exist, and how will we fix them? |
-| 6 | [Security Assessment Report (SAR)](docs/06-security-assessment-report.md) | Did we actually test the controls? What did we find? |
+| 1 | [System Description](Documents/01-System-Description.md) | What is this system and who uses it? |
+| 2 | [FIPS 199 Categorization Memo](Documents/02-FIPS-199-Categorization.md) | How serious would a breach be? |
+| 3 | [System Security Plan (SSP)](Documents/03-System-Security-Plan.md) | What security controls are in place and how do they work? |
+| 4 | [Risk Assessment (SP 800-30)](Documents/04-Risk-Assessment.md) | What could go wrong, and how bad would it be? |
+| 5 | [Plan of Action & Milestones (POA&M)](Documents/05-POAM.md) | What security gaps exist, and how will we fix them? |
+| 6 | [Security Assessment Report (SAR)](Documents/06-Security-Assessment-Report.md) | Did we actually test the controls? What did we find? |
 
 ---
 
@@ -98,11 +98,11 @@ The RMF process consists of six interlinked steps. Each document in this repo ma
 
 | Skill Demonstrated | Where Shown | Industry Relevance |
 |---|---|---|
-| FIPS 199 system categorization | [Doc 2](docs/02-fips-199-categorization.md) | Required for all federal systems before control selection |
-| NIST SP 800-53 control selection & implementation | [Doc 3 — SSP](docs/03-system-security-plan.md) | Core GRC analyst skill — daily responsibility |
-| Risk assessment methodology (SP 800-30) | [Doc 4](docs/04-risk-assessment.md) | Required for FedRAMP, FISMA, and HIPAA compliance programs |
-| POA&M development and management | [Doc 5](docs/05-poam.md) | GRC analysts update POA&Ms monthly — critical job skill |
-| Security assessment & findings reporting | [Doc 6 — SAR](docs/06-security-assessment-report.md) | Required for ATO packages and compliance audits |
+| FIPS 199 system categorization | [Doc 2](Documents/02-FIPS-199-Categorization.md) | Required for all federal systems before control selection |
+| NIST SP 800-53 control selection & implementation | [Doc 3 — SSP](Documents/03-System-Security-Plan.md) | Core GRC analyst skill — daily responsibility |
+| Risk assessment methodology (SP 800-30) | [Doc 4](Documents/04-Risk-Assessment.md) | Required for FedRAMP, FISMA, and HIPAA compliance programs |
+| POA&M development and management | [Doc 5](Documents/05-POAM.md) | GRC analysts update POA&Ms monthly — critical job skill |
+| Security assessment & findings reporting | [Doc 6 — SAR](Documents/06-Security-Assessment-Report.md) | Required for ATO packages and compliance audits |
 | Healthcare / HIPAA security knowledge | All documents | High-demand sector with an acute talent shortage |
 | Explaining security concepts in plain language | All documents | Required for presenting to non-technical executives |
 | Documentation quality & professionalism | All documents | Distinguishes senior from entry-level analysts |

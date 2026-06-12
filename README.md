@@ -126,7 +126,7 @@ flowchart TD
     G --> H[Pharmacy Partners]
 ```
 
-See the [`diagrams/`](diagrams) folder for the full set of detailed Mermaid data-flow diagrams.
+See the [`Diagrams/`](Diagrams) folder for the full set of detailed Mermaid data-flow diagrams.
 
 
 ---

@@ -1,0 +1,31 @@
+Portfolio Project Notice & License
+====================================
+
+Copyright (c) 2026 John C. Ilogbene
+
+This repository ("PatientPortal v1.0 — NIST RMF Authorization Package") is a
+FICTIONAL, EDUCATIONAL PORTFOLIO PROJECT created for professional development only.
+
+FICTIONAL CONTENT NOTICE
+-------------------------
+- "CareFirst Health Systems" and "PatientPortal v1.0" are fictional entities.
+- All personnel named within (e.g., Michael Adeyemi, Amaka Okafor,
+  Dr. Chioma Ezeh) are fictional and do not represent real individuals.
+- All asset IDs, vulnerability findings, CVE references, IP ranges, AWS
+  resource identifiers, and timelines are illustrative examples and do not
+  describe any real system, organization, or security incident.
+- Any resemblance to real organizations, products, or persons is purely
+  coincidental.
+
+PERMISSION TO USE
+-----------------
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this documentation and associated files, to view, reference, and learn
+from the content for educational and non-commercial purposes, provided that
+this notice is retained.
+
+THE DOCUMENTATION IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO COMPLETENESS, ACCURACY, OR FITNESS
+FOR ANY PARTICULAR PURPOSE. THIS PACKAGE SHOULD NOT BE USED AS A TEMPLATE FOR
+AN ACTUAL AUTHORIZATION TO OPERATE (ATO) DECISION WITHOUT INDEPENDENT REVIEW
+BY QUALIFIED SECURITY AND COMPLIANCE PROFESSIONALS.

@@ -41,8 +41,7 @@ flowchart TB
     C -->|Return Results| B
     B -->|HTTPS / TLS 1.3| A
 
-    style E fill:#f9d6d6,stroke:#c0392b
-    style D fill:#d6e8f9,stroke:#2980b9
+
 ```
 
 ---
